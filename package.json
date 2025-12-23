@@ -6,25 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write ."
   },
   "dependencies": {
-    "next": "15.3.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
-    "@tailwindcss/postcss": "^4.1.7",
-    "@types/node": "^22.15.23",
-    "@types/react": "^19.1.6",
-    "@types/react-dom": "^19.1.5",
-    "eslint": "^9.27.0",
-    "eslint-config-next": "15.3.2",
-    "prettier": "^3.5.3",
-    "tailwindcss": "^4.1.7",
-    "typescript": "^5.8.3"
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.0.3",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "16.1.1",
+    "prettier": "^3.7.4",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3"
   }
 }
