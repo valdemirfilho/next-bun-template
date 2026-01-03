@@ -10,7 +10,7 @@ const config = {
   singleQuote: true,
   arrowParens: 'always',
   bracketSpacing: true,
-  endOfLine: 'auto',
+  endOfLine: 'lf',
   printWidth: 80,
   plugins: [
     'prettier-plugin-organize-imports',
